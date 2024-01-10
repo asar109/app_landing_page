@@ -1,0 +1,26 @@
+div.screenshot-main-heading {
+  margin-top: 16rem;
+  margin-bottom: 8rem;
+  background-color: var(--bg);
+  text-align: center;
+}
+div.screenshot-main-heading span {
+  color: var(--text-color);
+}
+div.screenshot-main-heading h1 {
+  color: var(--primary-color);
+  font-size: 5rem;
+}
+section.screen-shot-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section.screen-shot-container img {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+.s-s-box {
+  flex-basis: 24%;
+}

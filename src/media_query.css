@@ -1,0 +1,250 @@
+@media (max-width: 400px) {
+    html {
+      font-size: 7px;
+    }
+    #root > div:nth-child(1) > header {
+        flex-direction: column;
+    }
+    #root > div:nth-child(1) > header > div.header_left_cantainer{
+        margin-bottom: 1rem ;
+    }
+    #home > section {
+        flex-direction: column;
+    }
+    .header_container{
+        position: sticky;
+    }
+    #home > section {
+        height: 48vh;
+    }
+    #home > section > div.hero_left_side{
+        padding-top: 16rem;
+        
+    }
+    #home > section > div.hero_right_side {
+        display: none;
+    }
+    #home > section > div.hero_left_side > p{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    #aboutus {
+        flex-direction: column;
+    
+    }
+    #aboutus > div.aboutme_left_side {
+        padding: 4rem;
+    }
+    #aboutus > div.card {
+        display: none;
+    }
+    .tab_panel_data{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 1rem;
+        padding-bottom: 8rem;
+    }
+    #ourprojects {
+        padding: 2rem;
+    }
+    #ourprojects > ul{
+        display: flex;
+        justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    #skills{
+        padding: 2rem;
+
+    }
+    #skills > div{
+        flex-wrap: wrap;
+    }
+    #contactus > div{
+        width:  48rem;
+    }
+    #main_btn{
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    #contactus {
+        padding: 4rem 0rem;
+    }
+   
+  }
+  @media (min-width: 401px) and (max-width: 700px) {
+    html {
+      font-size: 8px;
+    }
+    #root > div:nth-child(1) > header {
+        flex-direction: column;
+    }
+    #root > div:nth-child(1) > header > div.header_left_cantainer{
+        margin-bottom: 1rem ;
+    }
+    #home > section {
+        flex-direction: column;
+    }
+    .header_container{
+        position: sticky;
+    }
+    #home > section {
+        height: 48vh;
+    }
+    #home > section > div.hero_left_side{
+        padding-top: 16rem;
+    }
+    #home > section > div.hero_right_side {
+        display: none;
+    }
+    #home > section > div.hero_left_side > p{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    #aboutus {
+        flex-direction: column;
+    
+    }
+    #aboutus > div.aboutme_left_side {
+        padding: 4rem;
+    }
+    #aboutus > div.card {
+        display: none;
+    }
+    .tab_panel_data{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 1rem;
+        padding-bottom: 8rem;
+    }
+    .tab_panel_data .box{
+        height: 38rem;
+    }
+    #ourprojects {
+        padding: 2rem;
+    }
+    #ourprojects > ul{
+        display: flex;
+        justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    #skills{
+        padding: 2rem;
+
+    }
+    #skills > div{
+        flex-wrap: wrap;
+    }
+    #contactus > div{
+        width:  48rem;
+    }
+    #main_btn{
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    #contactus {
+        padding: 4rem 0rem;
+    }
+    
+  }
+  
+  @media (min-width: 701px) and (max-width: 1000px) {
+    html {
+      font-size: 10px;
+    }
+    #root > div:nth-child(1) > header {
+        flex-direction: row;
+        padding-left:1rem ;
+        padding-right: 1rem;
+    }
+    #root > div:nth-child(1) > header > div.header_left_cantainer{
+        margin-bottom: 1rem ;
+    }
+    #home > section {
+        flex-direction: column;
+    
+    }
+    
+    .header_container{
+        position: sticky;
+    }
+    #home > section {
+        height: 62vh;
+    }
+    #home > section > div.hero_left_side{
+        padding-top: 16rem;
+    }
+    #home > section > div.hero_right_side {
+        display: none;
+    }
+    #home > section > div.hero_left_side > p{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    #aboutus {
+        flex-direction: column;
+    
+    }
+    #aboutus > div.aboutme_left_side {
+        padding: 4rem;
+    }
+    #aboutus > div.card {
+        display: none;
+    }
+    .tab_panel_data{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 1rem;
+        padding-bottom: 8rem;
+    }
+    .tab_panel_data .box{
+        height: 42rem;
+    }
+    #ourprojects {
+        padding: 2rem;
+    }
+    #ourprojects > ul{
+        display: flex;
+        justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    #skills{
+        padding: 2rem;
+
+    }
+    #skills > div{
+        flex-wrap: wrap;
+    }
+    #contactus > div{
+        width:  54rem;
+    }
+    #main_btn{
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    #contactus {
+        padding: 4rem 0rem;
+    }
+   
+    
+  
+  }
+  
+  @media (min-width: 1001px) and (max-width: 1200px) {
+    html {
+      font-size: 11px;
+    }
+    .container {
+        max-width: 100rem;
+    }
+    #home > section{
+        justify-content: center;
+        align-items: flex-end;
+    }
+   
+  
+
+  }
+  
