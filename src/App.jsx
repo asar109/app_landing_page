@@ -4,7 +4,7 @@ import Hero from "./components/Hero/Hero";
 import Features from "./components/Features/Features";
 import FunFacts from "./components/FunFacts/FunFacts";
 import Download from "./components/Download/Download";
-import Screenshots from "./components/Screenshoots/screenShots";
+import Screenshots from "./components/Screenshoots/ScreenShots";
 
 const OfflineError = () => {
   return (
