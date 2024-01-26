@@ -1,12 +1,13 @@
 import React from 'react'
 import './FunFacts.css'
 import img from '../../assets/Images/2.png'
+import Image from '../Image/Image'
 const FunFacts = () => {
   return (
     <>
     <section id='funfacts' className="fun-facts container">
       <div className="f-f-col col-left">
-        <img src={img} alt="" />
+       <Image src={img} alt={'Fun Fact Image'} />
       </div>
       <div className="f-f-col col-right">
         <div className="f-f-row1 row">

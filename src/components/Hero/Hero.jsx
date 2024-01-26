@@ -5,6 +5,7 @@ import CustomButton from "../CustomButton/CustomButton";
 import { Link, scrollSpy } from "react-scroll";
 import playstore from "../../assets/Images/google.png";
 import appstore from "../../assets/Images/app.png";
+import Image from "../Image/Image";
 
 const Hero = () => {
   React.useEffect(() => {
@@ -26,7 +27,7 @@ const Hero = () => {
             </li>
             <li className="nav-bar-item">
               <Link to="funfacts" smooth={true} duration={800}>
-                Fun-Facts
+                  Facts
               </Link>
             </li>
             <li className="nav-bar-item">
@@ -49,10 +50,10 @@ const Hero = () => {
           </h1>
           <div className="hero_images">
             <div>
-              <img src={playstore} alt="Google play store" />
+            <Image alt={'App Store'} src={appstore} />
             </div>
             <div>
-              <img src={appstore} alt="App store" />
+            <Image alt={'Play store'} src={playstore} />
             </div>
           </div>
           <div className="button-box">
@@ -61,7 +62,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="right-side-box ">
-          <img src={heroImg} alt="" />
+         <Image alt={'Hero Image'} src={heroImg} />
         </div>
       </div>
     </nav>

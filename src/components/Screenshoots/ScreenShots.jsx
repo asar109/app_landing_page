@@ -3,6 +3,7 @@ import "./screenshot.css";
 import img1 from "../../assets/Images/1.png";
 import img2 from "../../assets/Images/2.png";
 import img3 from "../../assets/Images/3.png";
+import Image from "../Image/Image";
 
 const Screenshots = () => {
   return (
@@ -14,16 +15,16 @@ const Screenshots = () => {
       </div>
       <section className="screen-shot-container container">
         <div className="s-s-box">
-          <img src={img1} alt="" /> 
+          <Image src={img1} alt={"ScreenShot"} />{" "}
         </div>
         <div className="s-s-box">
-          <img src={img2} alt="" />
+          <Image src={img2} alt={"ScreenShot"} />{" "}
         </div>
         <div className="s-s-box">
-          <img src={img3} alt="" />
+          <Image src={img3} alt={"ScreenShot"} />{" "}
         </div>
         <div className="s-s-box">
-          <img src={img2} alt="" />
+          <Image src={img2} alt={"ScreenShot"} />{" "}
         </div>
       </section>
     </>
