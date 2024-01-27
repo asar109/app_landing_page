@@ -5,20 +5,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: aliceblue;
 }
-.loader {
-    width: 6rem;
-    height: 6rem;
-    border-radius: 50%;
-    box-sizing: border-box;
-    border-top: 8px solid #333 ;
-    border-left: 8px solid var(--primaryColor);
-    border-right: 8px solid rgba(255, 255, 255, 0);
-    animation: loader 1s infinite linear;
-  }
-  
-  @keyframes loader {
-    to {
-      transform: rotate(360deg);
-    }
-  }

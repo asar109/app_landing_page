@@ -5,6 +5,7 @@ import Features from "./components/Features/Features";
 import FunFacts from "./components/FunFacts/FunFacts";
 import Download from "./components/Download/Download";
 import Screenshots from "./components/Screenshoots/ScreenShots";
+import Alert from "./components/Alert/Alert.jsx";
 
 const OfflineError = () => {
   return (
@@ -46,6 +47,7 @@ function App() {
         <>
           {isOnline ? (
             <>
+            <Alert/>
               <Hero />
               <Features />
               <FunFacts />
