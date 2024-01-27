@@ -8,6 +8,7 @@ const Alert = () => {
     setShow(false);
   };
 
+  
   return (
     show && (
       <div
